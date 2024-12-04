@@ -1,0 +1,13 @@
+train: ..\train\images
+val: ..\valid\images
+test: ..\test\images
+
+nc: 3
+names: ['Fish', 'Fishing rod', 'Fishman']
+
+roboflow:
+  workspace: bogodelyna-5tfit
+  project: fishman-ybae0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bogodelyna-5tfit/fishman-ybae0/dataset/1
